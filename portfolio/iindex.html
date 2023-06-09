@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PORTFOLIO</title>
+    <link href="iindex.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3039650810.js" crossorigin="anonymous"></script>
+
+    <script>
+        var sidemenu = document.getElementByld("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+</head>
+<body>
+    <!--The hero section-->
+    <div class="hero">
+        <nav>
+            <h2 class="logo"><i> My Por</i><span>tfolio</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutSec">About</a></li>
+                <li><a href="#serviceSec">Skills</a></li>
+                <li><a href="#contactSec">Contact</a></li>
+                <li><a href="S.E.INTERNSHIP.pdf"><i>Resume<i></a></li>
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="content">
+            <h4>Hello, My Name Is</h4>
+            <h1>Yatunyi <span>Brian</span> </h1>
+            <h3>Am a Software engineer</h3>
+            <div class="newslatter" id="EnterEmail"> 
+                <form>
+                    <input name="email" id="mail" type="email" placeholder="Enter Your Email">
+                    <input name="submit" type="submit" value="Let's Start">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- The about section-->
+    <section class="aboutt" id="aboutSec">
+        <div class="main">
+            <img src="img1.jpg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Software <span>Engineer</span> </h5>   
+                <p>
+                    I'm an experienced software engineering student in , Kirinyaga University,Kenya. <br>
+                    Regarding Development, I know very well html,css, JavaSript . And l am familiar with <br>
+                    ReactJs, PHP and Python.l am able to build both the FrontEnd and Backend of an application 
+                    or a website. Nevertheless i'm always willing to explore new Skills and tehnologies. <br>
+                    Although l spend almost every waking hour studying articles, exploring new tech or
+                    building something fun. 
+                </p>  
+                    <a href="#EnterEmail"><button type="button">Let's Talk</button></a>     
+            </div>
+        </div>
+    </section>
+
+    <!-- The service section starts-->
+    <div class="service" id="serviceSec">
+        <div class="title" id="SkillCenter">
+            <h2>Skills</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+              <h5>Web Development</h5>
+                <div class="pra">
+                    <p>
+                        Every Website should be built with two primary goals in mind:
+                        Firstly it needs to work across all devices. Secondly it needs to be as 
+                        fast as possible.
+                    </p>
+                    <p style="text-align:center;">
+                        <a class="button" href="https://github.com/yatunyi15075/UI-Eccomerce-Website">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-bars"></i>
+              <h5>Projects</h5>
+                <div class="pra">
+                    <p>
+                        Undoubtedly, bringing your ideas to life is a great feeling. Whether it is about
+                        a personal project, a company project or an open source project. its a joy to 
+                        face the challenges involved.
+                    </p>
+                    <p style="text-align:center;">
+                        <a class="button" href="yatunyi15075">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-bars"></i>
+              <h5>PC Application</h5>
+                <div class="pra">
+                    <p>
+                        Every Application should be built with three primary goals in mind:
+                        Firstly it needs to work across all devices, Secondly it needs to be as 
+                        fast and lastly, it must meet your users needs.
+                    </p>
+                    <p style="text-align:center;">
+                        <a class="button" href="https://github.com/yatunyi15075/YouTube_Clone">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Contact Me-->
+<div class="contact-me" id="contactSec">
+    <p> Let me get you a beautiful Website</p>
+    <a class="button-two" href="#">Hire Me</a>
+</div>
+<footer>
+    <p>Yatunyi Brian</p>
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/yatunyi15075"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/YatunyiB"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="end">Copyright by Yatunyi Brian</p>
+</footer>
+</body>
+</html>
